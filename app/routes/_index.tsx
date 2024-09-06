@@ -24,9 +24,6 @@ export default function Index() {
         <a href="/about">
           Learn more <span>About me</span>
         </a>
-        <a href="/learning">
-          Learn more about <span>My Learning</span>
-        </a>
         <a href="/progress-gallery">
           See my <span>Creations</span>
         </a>
