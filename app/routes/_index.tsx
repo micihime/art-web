@@ -20,6 +20,23 @@ export default function Index() {
         </p>
         <blockquote>Mistakes? I call them &apos;happy accidents&apos; —thanks, Bob Ross!</blockquote>
       </div>
+      <div>
+        <a href="/about">
+          Learn more <span>About me</span>
+        </a>
+        <a href="/learning">
+          Learn more about <span>My Learning</span>
+        </a>
+        <a href="/progress-gallery">
+          See my <span>Creations</span>
+        </a>
+        <a href="/blog">
+          Check out my <span>Blog</span>
+        </a>
+        <a href="/contact">
+          You can reach out <span>Here</span>
+        </a>
+      </div>
       <footer>
         Footer
         Keep it simple, with links to your social media profiles (if any).
