@@ -1,10 +1,5 @@
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
+import { Links, Meta, Outlet, Scripts, ScrollRestoration, } from "@remix-run/react";
+import './styles/style.css'
 
 export default function App() {
   return (
