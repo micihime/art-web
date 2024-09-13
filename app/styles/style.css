@@ -75,7 +75,7 @@ a:focus {
 }
 
 .cover {
-	background: #fff url('../img/background.jpg') 50% 0px no-repeat;
+	background: #fff url('/img/background.jpg') 50% 0px no-repeat;
 	height: 300px;
 	margin-top: -85px;
 	position: relative;
