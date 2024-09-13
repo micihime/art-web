@@ -11,9 +11,13 @@ export default function Index() {
   return (
     <main>
       <article>
-				<header className="post-header">
+        <header className="post-header">
           <h1>Welcome to My Creative Playground!</h1>
-        </header>
+					<p className="post-meta">
+						napisal <a href="https://mitchie.netlify.app/" className="author">Admin Admin</a>
+						<time dateTime="2024-04-20 19:00">Apr. 20, 2024</time>
+					</p>
+				</header>
 				<div className="post-content">
           <h3>Exploring the colorful world of watercolors—one brushstroke at a time!</h3>
           <p>
