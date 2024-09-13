@@ -10,9 +10,10 @@ export const meta: MetaFunction = () => {
 export default function Index() {
     return (
         <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-            Section Title: Watch Me Grow
-            Include a gallery of your artwork in chronological order, so visitors can see your improvement over time. You can title it: From Colorful Blobs to Something Recognizable!
-            Add captions to each painting that include a bit of humor, like: This was supposed to be a sunset… somehow it turned into an abstract cloud monster.
+            <h1>Watch Me Grow</h1>
+            <p>
+              This page will include a gallery of my artwork, so you can (hopefully) see my improvement over time.
+            </p>
         </div>
     );
 }
