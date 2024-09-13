@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
+import Reviews from "./components/Reviews";
+import ArticleFooter from "./components/ArticleFooter";
 
 export const meta: MetaFunction = () => {
   return [
@@ -59,38 +61,10 @@ export default function Index() {
 					<h3>Mensi podnadpis</h3>
 					<p>Gummies chupa chups jelly-o sugar plum toffee liquorice danish cupcake topping. Toffee I love I love topping biscuit gummi bears donut chupa chups. I love croissant chocolate cake apple pie candy chocolate bar. Cookie gummies ice cream biscuit cookie pudding chocolate bar tiramisu macaroon.</p>
 				</div>
-				<footer className="post-footer">
-					<h3>O autorovi</h3>
-					<div className="byline">
-						<a href="https://mitchie.netlify.app/" className="photo">
-							<img src="/img/profile.jpg" height="120" width="120" alt="author" />
-						</a>
-						<h3><a href="https://mitchie.netlify.app/">Admin Admin</a></h3>
-						<div className="bio"><p>Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <a href="https://mitchie.netlify.app/">incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <strong>cupidatat non proident</strong>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-					</div>
-				</footer>
+				<ArticleFooter />
 			</article>
 
-			<aside className="pre-footer">
-				<ul className="review">
-					<li>
-						<blockquote>Suspendisse pretium mi est, in sagittis erat dignissim rhoncus. Cras ac quam eget turpis luctus vehicula pulvinar vitae nisi.</blockquote>
-						<p className="review-byline">Faucibus</p>
-					</li>
-					<li>
-						<blockquote>Vestibulum fermentum justo nec metus iaculis porttitor.</blockquote>
-						<p className="review-byline">Rhoncus</p>
-					</li>
-					<li>
-						<blockquote>Aenean facilisis libero vel nisi lacinia tincidunt.</blockquote>
-						<p className="review-byline">Fermentum</p>
-					</li>
-					<li>
-						<blockquote>Nunc quis ullamcorper magna.</blockquote>
-						<p className="review-byline">Curabitur</p>
-					</li>
-				</ul>
-			</aside>
+			<Reviews />
 		</main>
 	</>
 );}
