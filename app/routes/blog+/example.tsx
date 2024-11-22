@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
-import Reviews from "../components/Reviews";
-import ArticleFooter from "../components/ArticleFooter";
+import Reviews from "../../components/Reviews";
+import ArticleFooter from "../../components/ArticleFooter";
 
 export const meta: MetaFunction = () => {
   return [{ title: "Blog" }, { name: "description", content: "My Blog" }];
