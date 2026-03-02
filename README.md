@@ -1,9 +1,46 @@
-Art Blog
-Welcome to my personal art blog repository! This space showcases my artistic journey, creative processes, and various artworks across different mediums.
-📝 About
-This blog serves as a digital canvas where I share my artwork, thoughts on art, and creative experiences. It's built with passion for art and the desire to connect with fellow art enthusiasts.
-✨ Features
+# Art Website
 
-Gallery of original artwork
-Blog posts about artistic processes
-Categories for different art mediums
+## Features
+- Responsive design for all devices
+- Fast performance (built with React and Vite)
+- Clean, modern UI/UX
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/micihime/my-art-website.git
+cd my-art-website
+npm install
+# or
+yarn install
+```
+
+### Running the Development Server
+```bash
+npm run dev
+# or
+yarn dev
+```
+Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
+
+### Building for Production
+```bash
+npm run build
+# or
+yarn build
+```
+
+## Project Structure
+
+- `src/` - Main source code (components, styles, assets)
+- `public/` - Static files
+- `vite.config.ts` - Vite configuration
+- `tsconfig.json` - TypeScript configuration
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
