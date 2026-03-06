@@ -14,9 +14,9 @@ function About() {
           choosing a practice that asks you to let go. I'm still learning how.
         </p>
         <div className={styles.photoIcon}>
-          <IconDropletFilled size={30} color="var(--color-primary)" />
+          <IconDropletFilled size={30} color="var(--color-primary-dark)" />
           <IconBrush size={40} color="var(--color-primary-dark)" />
-          <IconDropletFilled size={30} color="var(--color-primary)" />
+          <IconDropletFilled size={30} color="var(--color-primary-dark)" />
         </div>
       </div>
       <div>

@@ -1,14 +1,14 @@
 .header {
   height: var(--header-height);
-  background-color: var(--color-primary);
+  background-color: var(--color-accent);
   position: sticky;
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 var(--spacing-standard); /* side padding */
+  justify-content: flex-end;
+  padding: 0 var(--spacing-normal); /* side padding */
 }
 
 .logo {
@@ -17,5 +17,5 @@
 }
 
 .slogan {
-  color: var(--color-accent-light);
+  color: var(--color-primary);
 }

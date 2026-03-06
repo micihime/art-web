@@ -6,7 +6,7 @@
   --color-primary-dark: #8E6FB0;
   --color-primary-darkest: #755694;
   --color-accent-light: #F2D675; /* Use for buttons or hover effects. */
-  --color-accent: #D4B84F; /* Use for buttons or hover effects. */
+  --color-accent: #ddce97; /* Use for buttons or hover effects. */
   --color-background: #FAF7FC;
   --color-text: #2E2433;
 
@@ -17,13 +17,14 @@
   --font-size-h1: 48px;
 
   /* Spacing */
-  --spacing-standard: 2rem;
+  --spacing-small: 8px;
+  --spacing-normal: 16px;
   --spacing-large: 24px;
 
   /* Other */
   --border-radius-circle: 50%;
   --header-height: 90px; 
-  --footer-height: 70px;
+  /* --footer-height: 70px; */
   --max-content-width: 1000px;
 
   font-synthesis: none;
@@ -43,13 +44,13 @@ body {
   font-size: var(--font-size-base);
   font-family: 'Montserrat', 'Nunito Sans', sans-serif;
   background-color: var(--color-background);
-  padding-bottom: var(--footer-height);
+  padding-bottom: var(--spacing-normal);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--color-primary-dark);
+  color: var(--color-primary-darkest);
   text-align: center;
   font-family: 'Playfair Display', 'Cormorant Garamond', serif;
 }
@@ -71,5 +72,5 @@ a {
 }
 
 a:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-text);
 }
