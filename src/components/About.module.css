@@ -3,13 +3,13 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  align-items: top;
+  align-items: stretch;
   justify-content: space-between;
   gap: var(--spacing-normal);
   padding: var(--spacing-normal) 0; /* top-bottom padding */
 }
 
-.photoIcon {
+.icon {
   display: flex;
   justify-content: center;
   gap: var(--spacing-normal);

@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import { IconBrush, IconDropletFilled } from "@tabler/icons-react";
+import { IconBrush, IconSeedlingFilled } from "@tabler/icons-react";
 
 function About() {
   return (
@@ -13,13 +13,13 @@ function About() {
           also, I think, exactly what I need. There's something quietly valuable about 
           choosing a practice that asks you to let go. I'm still learning how.
         </p>
-        <div className={styles.photoIcon}>
-          <IconDropletFilled size={30} color="var(--color-primary-dark)" />
+        <div className={styles.icon}>
+          <IconSeedlingFilled size={30} color="var(--color-primary-dark)" />
           <IconBrush size={40} color="var(--color-primary-dark)" />
-          <IconDropletFilled size={30} color="var(--color-primary-dark)" />
+          <IconSeedlingFilled size={30} color="var(--color-primary-dark)" />
         </div>
       </div>
-      <div>
+      {/* <div>
         <h2>Work With My Images</h2>
         <p>
           I create art prints and digital assets for people who want to bring more color 
@@ -30,7 +30,7 @@ function About() {
         <p>
           (More coming soon — stay tuned!) 
         </p>
-      </div>
+      </div> */}
     </div>
   )
 }
