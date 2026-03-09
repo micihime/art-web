@@ -4,3 +4,11 @@
   margin-right: auto;
   padding: var(--spacing-normal) 0; /* top-bottom padding */
 }
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--spacing-normal);
+  }
+}

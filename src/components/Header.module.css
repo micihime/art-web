@@ -19,3 +19,9 @@
 .slogan {
   color: var(--color-primary);
 }
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}

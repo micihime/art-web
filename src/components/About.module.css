@@ -12,5 +12,17 @@
 .icon {
   display: flex;
   justify-content: center;
-  gap: var(--spacing-normal);
+  gap: var(--spacing-large);
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--spacing-large);
+  }
+
+  .icon {
+    display: none;
+  }
 }
