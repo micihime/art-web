@@ -20,7 +20,7 @@ function Footer() {
         </button>
       </div>
       <div>
-        <p className={styles.credit}>Designed by <a href="https://mitchie.dev/" target="_blank" rel="noopener noreferrer">Miči</a></p>
+        <p className={styles.credit}>Designed by <a href="https://mhresko.dev/" target="_blank" rel="noopener noreferrer">Miči</a></p>
       </div>
     </div>
   )
