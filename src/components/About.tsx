@@ -3,7 +3,7 @@ import { IconBrush, IconSeedlingFilled } from "@tabler/icons-react";
 
 function About() {
   return (
-    <div className={styles.about}>
+    <section className={styles.about}>
       <div>
         <h2>Why I Paint?</h2>
         <p>
@@ -31,7 +31,7 @@ function About() {
           (More coming soon — stay tuned!) 
         </p>
       </div> */}
-    </div>
+    </section>
   )
 }
 
