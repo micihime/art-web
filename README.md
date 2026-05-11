@@ -1,10 +1,6 @@
 # Art Website
 
-I work in watercolor, alcohol ink, and sketchbooks. This site is a journal of what I'm learning, not a finished portfolio — and I think that's the point.
-
-I work in watercolor, alcohol ink, and — most consistently — sketchbooks.
-Watercolor and alcohol ink ask for time, prep, and a certain willingness to commit. Sketching just asks for five minutes and a pen. So that's often where I start, and sometimes where I stay.
-This site documents the journey, not the destination.
+I work in watercolor, alcohol ink, and sketchbooks. This site is a journal of what I'm learning.
 
 ## Features
 - Responsive design for all devices
