@@ -1,0 +1,27 @@
+.header {
+  height: var(--header-height);
+  background-color: var(--color-accent);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--spacing-normal); /* side padding */
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+.slogan {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}

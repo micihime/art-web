@@ -1,9 +1,52 @@
-Art Blog
-Welcome to my personal art blog repository! This space showcases my artistic journey, creative processes, and various artworks across different mediums.
-📝 About
-This blog serves as a digital canvas where I share my artwork, thoughts on art, and creative experiences. It's built with passion for art and the desire to connect with fellow art enthusiasts.
-✨ Features
+# Art Website
 
-Gallery of original artwork
-Blog posts about artistic processes
-Categories for different art mediums
+I work in watercolor, alcohol ink, and sketchbooks. This site is a journal of what I'm learning, not a finished portfolio — and I think that's the point.
+
+I work in watercolor, alcohol ink, and — most consistently — sketchbooks.
+Watercolor and alcohol ink ask for time, prep, and a certain willingness to commit. Sketching just asks for five minutes and a pen. So that's often where I start, and sometimes where I stay.
+This site documents the journey, not the destination.
+
+## Features
+- Responsive design for all devices
+- Fast performance (built with React and Vite)
+- Clean, modern UI/UX
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/micihime/my-art-website.git
+cd my-art-website
+npm install
+# or
+yarn install
+```
+
+### Running the Development Server
+```bash
+npm run dev
+# or
+yarn dev
+```
+Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
+
+### Building for Production
+```bash
+npm run build
+# or
+yarn build
+```
+
+## Project Structure
+
+- `src/` - Main source code (components, styles, assets)
+- `public/` - Static files
+- `vite.config.ts` - Vite configuration
+- `tsconfig.json` - TypeScript configuration
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
