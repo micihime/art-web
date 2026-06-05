@@ -12,7 +12,14 @@ interface SimpleGalleryProps {
 function SimpleGallery({ images }: SimpleGalleryProps) {
   return (
     <section className={styles.gallery}>
-      {images.map((image) => <img key={image.src} src={image.src} alt={image.alt} className={styles.image} />)}
+      {images.map((image) => (
+        <img
+          key={image.src}
+          src={image.src}
+          alt={image.alt}
+          className={styles.image}
+        />
+      ))}
     </section>
   );
 }

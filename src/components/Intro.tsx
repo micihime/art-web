@@ -1,57 +1,193 @@
 import styles from "./Intro.module.css";
+import SimpleGallery from "./SimpleGallery";
+
+import gallery1img1 from "../assets/gallery/1/pretty-scribble.jpg";
+import gallery1img2 from "../assets/gallery/1/ugly-scribble.jpg";
+
+import gallery2img1 from "../assets/gallery/2/test-page-1.jpg";
+import gallery2img2 from "../assets/gallery/2/test-page-2.jpg";
+import gallery2img3 from "../assets/gallery/2/test-page-3.jpg";
+import gallery2img4 from "../assets/gallery/2/test-page-4.jpg";
+
+import gallery3img1 from "../assets/gallery/3/sketch1.jpg";
+import gallery3img2 from "../assets/gallery/3/sketch2.jpg";
+import gallery3img3 from "../assets/gallery/3/sketch3.jpg";
+import gallery3img4 from "../assets/gallery/3/sketch4-1.jpg";
+import gallery3img5 from "../assets/gallery/3/sketch4-2.jpg";
+import gallery3img6 from "../assets/gallery/3/sketch4-3.jpg";
+import gallery3img7 from "../assets/gallery/3/sketch5.jpg";
+import gallery3img8 from "../assets/gallery/3/sketch6.jpg";
+import gallery3img9 from "../assets/gallery/3/watercolor-a-1.jpg";
+import gallery3img10 from "../assets/gallery/3/watercolor-a-2.jpg";
+import gallery3img11 from "../assets/gallery/3/watercolor-b-1.jpg";
+import gallery3img12 from "../assets/gallery/3/watercolor-b-2.jpg";
+
+const gallery1 = [
+  {
+    src: gallery1img1,
+    alt: "Pretty scribble on sketchbook page",
+  },
+  {
+    src: gallery1img2,
+    alt: "Intentionally ugly scribble on sketchbook page",
+  },
+];
+
+const gallery2 = [
+  {
+    src: gallery2img1,
+    alt: "Art supply test page 1",
+  },
+  {
+    src: gallery2img2,
+    alt: "Art supply test page 2",
+  },
+  {
+    src: gallery2img3,
+    alt: "Art supply test page 3",
+  },
+  {
+    src: gallery2img4,
+    alt: "Art supply test page 4",
+  },
+];
+
+const gallery3 = [
+  {
+    src: gallery3img1,
+    alt: "Abstract sketch 1",
+  },
+  {
+    src: gallery3img2,
+    alt: "Abstract sketch 2",
+  },
+  {
+    src: gallery3img3,
+    alt: "Abstract sketch 3",
+  },
+  {
+    src: gallery3img4,
+    alt: "Abstract sketch 4 part 1",
+  },
+  {
+    src: gallery3img5,
+    alt: "Abstract sketch 4 part 2",
+  },
+  {
+    src: gallery3img6,
+    alt: "Abstract sketch 4 part 3",
+  },
+  {
+    src: gallery3img7,
+    alt: "Abstract sketch 5",
+  },
+  {
+    src: gallery3img8,
+    alt: "Abstract sketch 6",
+  },
+  {
+    src: gallery3img9,
+    alt: "Watercolor experiment A part 1",
+  },
+  {
+    src: gallery3img10,
+    alt: "Watercolor experiment A part 2",
+  },
+  {
+    src: gallery3img11,
+    alt: "Watercolor experiment B part 1",
+  },
+  {
+    src: gallery3img12,
+    alt: "Watercolor experiment B part 2",
+  },
+];
 
 function Intro() {
   return (
     <section className={styles.intro}>
-      <h1>I'm learning to paint and draw.</h1>
       <p>
-        Most of what you'll find here is a record of that process: the
-        experiments, the exercises, the sketches, and the occasional successes.
+        I'm learning to paint and draw. Most of what you'll find here is a
+        record of that process: the experiments, the exercises, the sketches,
+        and the occasional successes.
       </p>
-      {/* [ Photo of you creating / your workspace ] */}
+      {/* self-portrait or photo of the workspace */}
       <h2>The Art of Intentional Ruin</h2>
+      <p>Earlier this year, I opened a brand-new sketchbook.</p>
+      <p>i am a perfectionist. or was? trying not to be.</p>
       <p>
-        Earlier this year, I opened a brand-new sketchbook. Being a recovering
-        perfectionist, I knew the blank page would paralyze me, so I drew a
-        random line on the very first page just to get the pressure over with.
+        I drew a random line on the very first page just to get the pressure
+        over with. I have tendency to buy a lot of beautiful notebooks (I love
+        notebooks!)
+      </p>
+      <p>and then not use them - because I feel like I will ruin them.</p>
+      <p>
+        so i wanted to intentionally ruin it on the first page. Draw an uggly
+        scribble. and with it, let the pressure to draw perfectly go.
       </p>
       <p>The problem? It came out too pretty.</p>
       <p>
-        Frustrated, I turned to the next page and forced myself to make an
-        intentionally ugly scribble. That one worked. The spell was broken, and
-        I've been trying to apply that same "just ruin it" logic ever since.
+        So on another page, I tried again and forced myself to make an
+        intentionally ugly scribble.
       </p>
-      {/* [ Photo: The "too pretty" line vs. the ugly scribble ] */}
+      <SimpleGallery images={gallery1} />
       <h2>Dusting Off the Shelf</h2>
       <p>
         For years, I collected art supplies with the best intentions, only to
-        leave them sitting on my shelves. Beautiful sketchbooks felt far too
-        important to spoil. When I finally decided to just start, I didn't have
-        a grand plan. I just needed to break the ice.
+        leave them sitting on my shelves.
+      </p>
+      <p>
+        (The same thing I do with notebooks, I do with art supplies. Huh...)
+      </p>
+      <p>I get caught up in the idea that</p>
+      <p>
+        When I see some great new art supplies, I immediately see myself how I
+        do great artworks done with this tools. At the shop, I feel like 100%
+        this time it is going to be different. I will REALLY start
+        painting/drawing/journalling/etc.
+      </p>
+      <p>But I never did :D I was just expanding my collection.</p>
+      <p>
+        Then, when I finally decided that I will really do this, I did not know
+        what to draw. And it felt a little bit paralyzing. So I wondered, what
+        now?
+      </p>
+      <p>
+        I just needed to break the ice. So I decided, I will just draw some
+        lines with each and every one of my pencil and marker and wax pencil. To
+        just try out my tools that i bought over the years and never used and
+        they lay in my shelves unused.
       </p>
       <p>
         My first pages became a roll call for everything I'd been hoarding: one
-        line for every pen, pencil, and marker I'd been saving for the "right
-        moment."
+        line for every pen, pencil, and marker I'd been saving
       </p>
-      {/* [ Photo: The colored test pages next to your art supplies ] */}
+      <p>
+        this was like a starter idea to do something, at least something. and
+        just to use the stuff i bought in the past.
+      </p>
+      <SimpleGallery images={gallery2} />
       <h2>Finding a Style in the Chaos</h2>
       <p>
-        Once the tools were dusty and the pages were ruined, I started playing.
-        I followed Instagram prompts, tried watercolor exercises from books, and
-        eventually started sketching with absolutely no plan at all—just letting
-        lines fall where they wanted to.
+        then i tried to do some sketching just on my own. trying to not have a
+        plan, but to just do some lines and see what will happen. so this was
+        actually fun and in the process of multiple sketches i might have
+        discovered my own sketch style - straight lines filling an abstract
+        patterns neatly next to each other, in different direction, creating
+        quite interesting pictures. i keep experimenting with it and i maybe
+        came up with nice little patterns i can do (planned patterns).
       </p>
       <p>
-        Somewhere in those unplanned moments, I accidentally stumbled into my
-        own style: neat, straight lines filling abstract patterns next to each
-        other, creating textures I actually really like. I'm still experimenting
-        with it, blending these tight patterns with unpredictable watercolor
-        blotches, and seeing what happens next.
+        I've been trying different things: following prompts from Instagram,
+        testing out watercolor techniques from books, or making abstract pattern
+        sketches. In the name of combating perfectionism, I just try making it
+        up as I go and seeing what kind of textures happen, with no specific
+        plan beforehand.
       </p>
+      <SimpleGallery images={gallery3} />
       <p>
-        This website is simply a record of what happens when I decide to keep
-        showing up anyway.
+        There is still a lot on my list to try. For now, this is simply a record
+        of what happens when I decide to keep showing up anyway.
       </p>
     </section>
   );
