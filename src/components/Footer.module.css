@@ -21,7 +21,7 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  color: var(--color-primary-darkest);
+  color: var(--color-primary);
 }
 
 .iconButton:hover {
