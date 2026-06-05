@@ -114,16 +114,16 @@ function Intro() {
       {/* self-portrait or photo of the workspace */}
       <h2>The Art of Intentional Ruin</h2>
       <p>Earlier this year, I opened a brand-new sketchbook.</p>
-      <p>i am a perfectionist. or was? trying not to be.</p>
+      <p>I'm a perfectionist. Or was? trying not to be.</p>
       <p>
         I drew a random line on the very first page just to get the pressure
-        over with. I have tendency to buy a lot of beautiful notebooks (I love
+        over with. I have a tendency to buy a lot of beautiful notebooks (I love
         notebooks!)
       </p>
-      <p>and then not use them - because I feel like I will ruin them.</p>
+      <p>And then not use them - because I feel like I will ruin them.</p>
       <p>
-        so i wanted to intentionally ruin it on the first page. Draw an uggly
-        scribble. and with it, let the pressure to draw perfectly go.
+        So i wanted to intentionally ruin it on the first page. Draw an ugly
+        scribble. And with it, let the pressure to draw perfectly go.
       </p>
       <p>The problem? It came out too pretty.</p>
       <p>
@@ -160,23 +160,14 @@ function Intro() {
       </p>
       <p>
         My first pages became a roll call for everything I'd been hoarding: one
-        line for every pen, pencil, and marker I'd been saving
+        line for every pen, pencil, and marker I'd been saving.
       </p>
       <p>
-        this was like a starter idea to do something, at least something. and
+        This was like a starter idea to do something, at least something. And
         just to use the stuff i bought in the past.
       </p>
       <SimpleGallery images={gallery2} />
       <h2>Finding a Style in the Chaos</h2>
-      <p>
-        then i tried to do some sketching just on my own. trying to not have a
-        plan, but to just do some lines and see what will happen. so this was
-        actually fun and in the process of multiple sketches i might have
-        discovered my own sketch style - straight lines filling an abstract
-        patterns neatly next to each other, in different direction, creating
-        quite interesting pictures. i keep experimenting with it and i maybe
-        came up with nice little patterns i can do (planned patterns).
-      </p>
       <p>
         I've been trying different things: following prompts from Instagram,
         testing out watercolor techniques from books, or making abstract pattern
