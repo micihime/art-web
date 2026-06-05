@@ -7,9 +7,12 @@ function About() {
       <div>
         <h2>Why I Paint?</h2>
         <p>
-          I like precision — getting things exactly right, down to the last detail. Watercolor doesn't care about any of that.
-          A brushstroke goes where it wants. Pigment bleeds. Control is an illusion. I find that deeply frustrating, and also, I think, exactly what I need.
-          There's something quietly valuable about choosing a practice that asks you to let go. I'm still learning how.
+          I like precision — getting things exactly right, down to the last
+          detail. Watercolor doesn't care about any of that. A brushstroke goes
+          where it wants. Pigment bleeds. Control is an illusion. I find that
+          deeply frustrating, and also, I think, exactly what I need. There's
+          something quietly valuable about choosing a practice that asks you to
+          let go. I'm still learning how.
         </p>
         <div className={styles.icon}>
           <IconSeedlingFilled size={30} color="var(--color-primary-dark)" />
@@ -30,7 +33,7 @@ function About() {
         </p>
       </div> */}
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

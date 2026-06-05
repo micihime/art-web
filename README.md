@@ -3,6 +3,7 @@
 I work in watercolor, alcohol ink, and sketchbooks. This site is a journal of what I'm learning.
 
 ## Features
+
 - Responsive design for all devices
 - Fast performance (built with React and Vite)
 - Clean, modern UI/UX
@@ -10,10 +11,12 @@ I work in watercolor, alcohol ink, and sketchbooks. This site is a journal of wh
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher recommended)
 - npm or yarn
 
 ### Installation
+
 ```bash
 git clone https://github.com/micihime/my-art-website.git
 cd my-art-website
@@ -23,14 +26,17 @@ yarn install
 ```
 
 ### Running the Development Server
+
 ```bash
 npm run dev
 # or
 yarn dev
 ```
+
 Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
 
 ### Building for Production
+
 ```bash
 npm run build
 # or
@@ -45,4 +51,5 @@ yarn build
 - `tsconfig.json` - TypeScript configuration
 
 ## License
+
 This project is open source and available under the [MIT License](LICENSE).

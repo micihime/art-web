@@ -7,7 +7,7 @@ function Header() {
       {/* <img src={logo} alt="logo" className={styles.logo} /> */}
       <h3 className={styles.slogan}>Process Over Perfection</h3>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
