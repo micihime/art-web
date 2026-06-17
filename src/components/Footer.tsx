@@ -1,8 +1,5 @@
 import styles from "./Footer.module.css";
-import {
-  IconBrandInstagram,
-  IconMail,
-} from "@tabler/icons-react";
+import { IconBrandInstagram, IconMail } from "@tabler/icons-react";
 
 function Footer() {
   const handleEmailClick = () => {
@@ -14,16 +11,37 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.icons}>
-        <a href="https://instagram.com/studio.mornings" target="_blank" rel="noopener noreferrer" title="Instagram"><IconBrandInstagram size={30} /></a>
-        <button type="button" className={styles.iconButton} onClick={handleEmailClick} title="Email">
+        <a
+          href="https://instagram.com/studio.mornings"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <IconBrandInstagram size={30} />
+        </a>
+        <button
+          type="button"
+          className={styles.iconButton}
+          onClick={handleEmailClick}
+          title="Email"
+        >
           <IconMail size={30} />
         </button>
       </div>
       <div>
-        <p className={styles.credit}>Designed by <a href="https://mhresko.com/" target="_blank" rel="noopener noreferrer">Miči</a></p>
+        <p className={styles.credit}>
+          Designed by{" "}
+          <a
+            href="https://mhresko.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Miči
+          </a>
+        </p>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

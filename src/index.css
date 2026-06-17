@@ -2,13 +2,10 @@
 
 :root {
   /* Colors */
-  --color-primary: #A88AC4; /* Use for nav bar, logo accents, and buttons. */
-  --color-primary-dark: #8E6FB0;
-  --color-primary-darkest: #755694;
-  --color-accent-light: #F2D675; /* Use for buttons or hover effects. */
+  --color-primary: #a88ac4; /* Use for nav bar, logo accents, and buttons. */
   --color-accent: #ddce97; /* Use for buttons or hover effects. */
-  --color-background: #FAF7FC;
-  --color-text: #2E2433;
+  --color-background: #faf7fc;
+  --color-text: #2e2433;
 
   /* Font sizes */
   --font-size-base: 18px;
@@ -23,7 +20,7 @@
 
   /* Other */
   --border-radius-circle: 50%;
-  --header-height: 90px; 
+  --header-height: 90px;
   /* --footer-height: 70px; */
   --max-content-width: 1000px;
 
@@ -42,7 +39,8 @@ body {
   position: relative;
   margin: 0;
   font-size: var(--font-size-base);
-  font-family: 'Montserrat', 'Nunito Sans', sans-serif;
+  font-family: "Montserrat", "Nunito Sans", sans-serif;
+  color: var(--color-text);
   background-color: var(--color-background);
   padding-bottom: var(--spacing-normal);
 }
@@ -50,9 +48,9 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--color-primary-darkest);
+  color: var(--color-primary);
   text-align: center;
-  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  font-family: "Playfair Display", "Cormorant Garamond", serif;
 }
 
 h1 {
@@ -68,7 +66,8 @@ h3 {
 }
 
 a {
-  color: var(--color-primary-darkest);
+  color: var(--color-primary);
+  font-weight: bold;
 }
 
 a:hover {

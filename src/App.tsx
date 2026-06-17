@@ -1,8 +1,7 @@
-import Header from "./components/Header"
-import Intro from "./components/Intro"
-import Gallery from "./components/Gallery"
-import About from "./components/About"
-import Footer from "./components/Footer"
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+// import About from "./components/About"
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,12 +9,11 @@ function App() {
       <Header />
       <main>
         <Intro />
-        <Gallery />
-        <About />
+        {/* <About /> */}
       </main>
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

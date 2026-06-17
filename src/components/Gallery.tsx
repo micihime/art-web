@@ -1,7 +1,7 @@
 import styles from "./Gallery.module.css";
-import image1 from '../assets/gallery/1.jpg'
-import image2 from '../assets/gallery/2.jpg'
-import image3 from '../assets/gallery/3.jpg'
+import image1 from "../assets/gallery/1.jpg";
+import image2 from "../assets/gallery/2.jpg";
+import image3 from "../assets/gallery/3.jpg";
 
 function Gallery() {
   return (
@@ -10,7 +10,7 @@ function Gallery() {
       <img src={image2} alt="logo" className={styles.image} />
       <img src={image3} alt="logo" className={styles.image} />
     </section>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;
